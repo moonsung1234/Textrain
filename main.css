@@ -1,0 +1,98 @@
+
+#game {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+#game #input {
+    margin-top: 40%;
+    margin-left: 35%;
+    width: 500px;
+    height: 90px;
+    font-size: 30px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    /* 장난하냐;; */
+}
+
+#game #text_area p {
+    position: absolute;
+    font-size: 30px;
+    z-index: 1;
+}
+
+#game #point {
+    position: absolute;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    left: 5%;
+    top: 3%;
+}
+
+#game #end {
+    display: none;
+    position: absolute;
+    font-size: 40px;
+    background-color: orange;
+    top: 30%;
+    left: 40%;
+    z-index: 2;
+}
+
+#game #end #end_point {
+    text-align: center;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#game #end #my_rank {
+    text-align: center;
+}
+
+#game #end #my_rank #rank_number {
+    display: inline;
+    color: yellow;
+    font-weight: bolder;
+}
+
+#game #end #rank {
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#game #end #rank div {
+    background-color: salmon;
+}
+
+#game #end #rank div div {
+    display: inline-block;
+    transform: translateY(-50%);
+    /* background-color: blue; */
+}
+
+#game #end #rank div div div {
+    display: inline;
+    padding-left: 20px;
+}
+
+#game #end #rank div div .rank {
+    font-weight: bold;
+    color: white;
+}
+
+#game #end #rank div div .point {
+    font-weight: bolder;
+    color: yellow
+}
+
+#game #end #rank img {
+    display: inline;
+    width: 70px;
+    height: 70px;
+}

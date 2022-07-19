@@ -1,0 +1,38 @@
+
+#rank {
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#rank div {
+    background-color: salmon;
+}
+
+#rank div div {
+    display: inline-block;
+    transform: translateY(-50%);
+    /* background-color: blue; */
+}
+
+#rank div div div {
+    display: inline;
+    padding-left: 20px;
+}
+
+#rank div div .rank {
+    font-weight: bold;
+    color: white;
+}
+
+#rank div div .point {
+    font-weight: bolder;
+    color: yellow
+}
+
+img {
+    display: inline;
+    width: 70px;
+    height: 70px;
+}
